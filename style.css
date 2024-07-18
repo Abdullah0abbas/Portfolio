@@ -94,6 +94,7 @@ section {
 
 .home-img img {
     height: 35vw;
+    height: 100%;
     animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage {
