@@ -470,14 +470,20 @@ span{
     .contact form .input-box input{
         width: 100%;
     }
+    .portfolio-layer p{
+        font-size: 1.5rem;
+    }
 }
 
-@media (max-widht:365px) {
+@media (max-width:365px) {
     .home-img img{
         width: 90vw;
     }
     .about-img img{
         width: 90vw;
+    }
+    .portfolio-layer p{
+        font-size: 1rem;
     }
     .footer{
         flex-direction: column-reverse;
