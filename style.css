@@ -24,10 +24,10 @@
   }
 
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
+    --bg-color: black;
+    --second-bg-color: hsl(0, 0%, 7%);
     --text-color: #fff;
-    --main-color: #0ef;
+    --main-color: gold;
 }
 
 html {
@@ -93,8 +93,7 @@ section {
 }
 
 .home-img img {
-    height: 35vw;
-    height: 100%;
+    height: 40vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage {
@@ -133,6 +132,7 @@ span{
 
 .home-content p {
     font-size: 1.6rem;
+    width: 450px;
 }
 
 .social-media a {
@@ -177,7 +177,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     background: var(--second-bg-color);
 }
 
@@ -188,6 +188,7 @@ span{
 .heading {
     text-align: center;
     font-size: 4.5rem;
+    margin-bottom: 50px;
 }
 
 .about-content h2 {
@@ -196,6 +197,7 @@ span{
 }
 .about-content h3{
     font-size: 2.6rem;
+    color: var(--main-color);
 }
 .about-content p{
     font-size: 1.6rem;
@@ -211,6 +213,7 @@ span{
     flex-wrap: wrap;
     gap: 2rem;
     position: relative;
+    margin: 20px;
 }
 .services-container .services-box{
     flex: 1 1 30rem;
