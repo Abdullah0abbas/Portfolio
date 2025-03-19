@@ -132,7 +132,7 @@ span{
 
 .home-content p {
     font-size: 1.6rem;
-    width: 450px;
+    width: 100%;
 }
 
 .social-media a {
@@ -428,7 +428,11 @@ span{
     }
 
     .home{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .home-content h3{
         font-size: 2.6rem;
